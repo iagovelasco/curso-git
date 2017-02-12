@@ -24,3 +24,44 @@ ver hitorio de commit
 ### git whatchanged -p
 
 Alteracões detalhadas
+
+### git branch
+
+Ver as branchs que exite no repositorio
+
+### git branch -t [nome da branch] origin/[nome da branch]
+
+cria uma branch nova que esta trackeada(ligada) com a branch remota 
+
+### git branch -r
+
+Listar todas as branches remotas
+
+### git branch -a
+
+Listar todas as branches locais e remotas
+
+### git fetch origin
+
+podemos verificar todas as atualizações que foram realizadas no repositório referente ao origin.
+
+### git checkout -b [nome da branch]
+
+para criara branch e ja entrar nela para atuar na mesma
+
+### git merge [nome da branch]
+
+trazer alterações da branch [nome da branch] para master
+
+### git rebase master [nome da branch]
+
+atualiza uma branch com base em outra
+
+### git reset HEAD
+
+muda o arquivo para o ultimo estado antes de ser commitado
+
+
+###  git revert [hash]
+
+desfazendo commit 
